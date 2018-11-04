@@ -1,0 +1,202 @@
+
+body
+{
+	
+	font-size:25px;
+	height:100%;
+}
+
+div#header
+{
+	background-color:black;
+}
+
+ul
+{
+	margin-left:-40px;
+	height:53px;
+	background-color:black;
+}
+li.left
+{
+	display:inline;
+	padding:14px;
+	font-size:25px;
+	height:25px;
+	color:#dbdcdd;
+	float:left;
+}
+li.right
+{
+	display:inline;
+	padding:14px;
+	font-size:25px;
+	height:25px;
+	color:#dbdcdd;
+	float:right;
+}
+li a
+{
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+
+}
+li a:hover
+{
+font-size:25px;
+}
+#main
+{
+	background-color:white;
+
+}
+
+#search
+{
+	margin-left:20px;
+}
+
+#search form
+{
+	padding:2px;
+	padding-bottom:15px;
+	width:96%;
+}
+
+#search form input[type=text]
+{
+	margin-left:10px;
+	width:70%;
+
+}
+
+#container
+{
+	background-color:white;
+	text-align:center;
+	margin:20px;
+}
+
+#container  p 
+{
+
+padding:10px;
+	background-color:#c7c7b2;
+	text-align:left;
+
+}
+#container form
+{
+	text-align:left;
+	background-color:#e2e2e0;
+	width:75%;
+
+}
+
+
+
+#container form span
+{
+	margin-left:10px;
+	font-size:15px;
+	color:red;
+}
+
+input[type=text]
+{
+	padding:10px;
+	border-radius:5px;
+	font-size:20px;
+	height:30px;
+	width:300px;
+	border-width:5px;
+    border-style: solid;
+    border-color: white white  white green;
+}
+input[type=password]
+{
+
+	padding:10px;
+	border-radius:5px;
+	font-size:20px;
+	height:30px;
+	width:300px;
+	border-width:5px;
+    border-style: solid;
+    border-color: white white  white green;
+}
+
+input[type=submit]
+{
+	margin:15px;
+	background-color:green;
+	height:45px;
+	width:100px;
+	font-size:20px;
+	color:white;
+}
+
+input:hover
+{
+	border-color:#bdf756;
+
+}
+table
+{
+	margin-left:60px;
+}
+td
+{
+	padding:5px;
+	font-size:15px;
+	font-family: Geneva,Tahoma,Verdana,sans-serif; 
+}
+
+
+div #error
+{
+	color:red;
+	background-color:#f2d8d7;
+	border-radius:5px;
+margin-bottom:10px;
+font-weight:bold;
+}
+
+
+div #success
+{
+	border-radius:5px;
+	color:green;
+	background-color:#def9e2;
+
+margin-bottom:10px;
+font-weight:bold;
+}
+
+div #username
+{
+	text-align:left;
+	font-size:30px;
+	background-color:#e5e8e6;
+	padding:15px;
+}
+
+body div#login_form 
+{
+	background-color:#e2e2e0;
+	text-align:left;
+	border-radius:10px;
+
+}
+
+body  div#login_form a
+{
+	font-size:20px;
+	margin-left:275px;
+}
+
+body div#login_form table tr td
+{
+	font-size:20px;
+}

@@ -1,0 +1,42 @@
+User
+-user_id
+-firstname
+-lastname
+-course
+-usertype
+-address
+-contact
+-password
+-account_status
+-email
+-password_last_updated
+
+
+course
+-id
+-course_name
+-course_type
+
+Request Form
+-form_id
+-form type
+
+
+request_form_history
+-id
+-form_id
+-user_id
+-date
+-status
+
+
+
+security questions
+-id
+-question
+
+security answers
+-id
+-question_id
+-answer
+-user_id
